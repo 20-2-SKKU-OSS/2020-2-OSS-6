@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: 2020 OSS 6
 
 # Your name to show in the footer
 author: Some Person
@@ -64,7 +64,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: KoreanNewsCrawler 프로젝트를 진행하게 될 OSS 6조입니다.
 
 # --- General options --- #
 
