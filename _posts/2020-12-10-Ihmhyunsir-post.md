@@ -6,7 +6,7 @@ date: 2020-12-10 22:26:00 +0900
 category: Process
 ---
 
-## 1. 키워드를 입력받아 제목에서 찾는 코드
+## 1. 시작 시 사용자에게 크롤링 기간과 카테고리를 입력받도록 개선
 
 기존 크롤링 프로그램은 보시다시피 실행하기 전 코드에서 카테고리와 날짜를 미리 설정해야 한다. 
 매번 바꾸는 과정이 번거롭다 생각하여, 프로그램을 실행시킬 때 마다 카테고리와 날짜를 입력받아 출력할 수 있도록 바꾸기로 하였다.
@@ -36,7 +36,7 @@ get_catergory함수와 get_date함수를 통해 시작과 함께 사용자에게
 **적용 전**
 ![old_version](../assets/img/old_version.png)
 **적용 후**
-
+![new_version](../assets/img/new_version.png)
 - - -
 **Merge 방법**: 위 개선 사항은 comfortable 이라는 branch로 올라갔으며, noMultiProc과 merge되었다.
 noMultiProc과 comfortable 두 브랜치가 main브랜치에서 articlecrawler.py라는 같은 파일을 수정했기에, 충돌을 방지하기위해 수동으로 코드 merge하였다.
