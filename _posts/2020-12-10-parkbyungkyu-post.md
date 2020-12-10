@@ -7,6 +7,9 @@ category: Process
 
 ## 1. 키워드를 입력받아 제목에서 찾는 기능
 
+이 코드의 원래 기능은 크롤링을 할 때 기간, 카테고리를 정하면 기사를 모두 크롤링 하는 것,
+15번 이슈를 통해 사용자가 키워드를 입력하면 제목에 해당 키워드가 포함된 기사들만 .csv 파일에 저장하도록 하는 기능 추가
+    
 ```python
 def get_keyword(self):
     keyword = 'initvalue'
@@ -35,4 +38,4 @@ def get_keyword(self):
 ```
 
 ## 2. 프로젝트 read.me 수정
-![readmescreen](https://github.com/20-2-SKKU-OSS/2020-2-OSS-6/blob/master/assets/img/readmechange.JPG)
+![readmescreen](../assets/img/readmechange.JPG)
