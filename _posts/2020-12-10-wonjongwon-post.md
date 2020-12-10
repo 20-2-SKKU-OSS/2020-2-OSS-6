@@ -32,7 +32,7 @@ articlecrawler.py에 코드 수정
 
 ## 3. commit 작성 및 readme 수정
 
-코드 수정중 nomultiproc 브랜치에서 크롤링 카테고리와 진행상황을 볼수 있도록 코드가 수정된것을 확인하고 main 브랜치가 아닌 nomultiproc브랜치에 바로 commit
+코드 수정중 nomultiproc 브랜치에서 크롤링 카테고리와 진행상황을 볼수 있도록 코드가 수정된것을 확인하고 main 브랜치가 아닌 nomultiproc브랜치에 바로 commit하였
 
 ![issue15](../assets/img/commit1.png)
 
