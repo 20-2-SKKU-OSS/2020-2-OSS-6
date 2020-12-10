@@ -13,6 +13,6 @@ subtitle: 2020 SKKU OSS TEAM 6를 소개합니다.
 - 임현서(TEAM MEMBER)
 - 이찬구(TEAM MEMBER)
 
-### TEAM 6's WOR
+### TEAM 6's WORK
 
 6조의 2020 OSS 실습 결과물은 [GITHUB REPOSITORY](https://github.com/20-2-SKKU-OSS/2020-2-OSS-6-Project)에서 확인 하실 수 있습니다!
