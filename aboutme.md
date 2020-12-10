@@ -1,16 +1,18 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Team 6
+subtitle: 2020 SKKU OSS TEAM 6를 소개합니다. 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+팀 멤버는 다음과 같습니다:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- 임성용(TEAM LEADER) 
+- 원종원(TEAM MEMBER)
+- 박병규(TEAM MEMBER)
+- 이찬구(TEAM MEMBER)
+- 임현서(TEAM MEMBER)
+- 이찬구(TEAM MEMBER)
 
-What else do you need?
+### TEAM 6's WORD
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+6조의 2020 OSS 실습 결과물은 [GITHUB REPOSITORY](https://github.com/20-2-SKKU-OSS/2020-2-OSS-6-Project)에서 확인 하실 수 있습니다!
