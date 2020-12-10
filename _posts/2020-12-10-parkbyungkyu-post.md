@@ -21,17 +21,18 @@ def get_keyword(self):
         return keyword
 ```
 
+## 2. 키워드가 포함된 기사만 엑셀 파일에 쓰는 기능
 
 ```python
     if self.keyword == 'initvalue':
-                wcsv = writer.get_writer_csv()
-                wcsv.writerow([news_date, category_name, text_company, text_headline, text_sentence, content_url])
-            else:
-                headline_to_words = text_headline.split()
-                if headline_to_words.index(self.keyword) >= 0:
-                    wcsv = writer.get_writer_csv()
-                    wcsv.writerow([news_date, category_name, text_company, text_headline, text_sentence, content_url])
+        wcsv = writer.get_writer_csv()
+        wcsv.writerow([news_date, category_name, text_company, text_headline, text_sentence, content_url])
+    else:
+        headline_to_words = text_headline.split()
+        if headline_to_words.index(self.keyword) >= 0:
+            wcsv = writer.get_writer_csv()
+            wcsv.writerow([news_date, category_name, text_company, text_headline, text_sentence, content_url])
 ```
 
 ## 2. 프로젝트 read.me 수정
-![readmescreen](./assets/img/readmechange.JPG)
+![readmescreen](https://github.com/20-2-SKKU-OSS/2020-2-OSS-6/blob/master/assets/img/readmechange.JPG)
