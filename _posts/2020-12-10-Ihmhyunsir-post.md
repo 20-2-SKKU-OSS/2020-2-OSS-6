@@ -30,10 +30,12 @@ articlecrawler.py에 코드 첨가
             self.date[keys] = get_date
 ```
 get_catergory함수와 get_date함수를 통해 시작과 함께 사용자에게 크롤링 할 기간과 그 카테고리를 입력받도록 함.
-- - -
+
 
 ## 2. 적용 전 후 비교
+**적용 전**
 ![old_version](../assets/img/old_version.png)
+**적용 후**
 
 - - -
 **Merge 방법**: 위 개선 사항은 comfortable 이라는 branch로 올라갔으며, noMultiProc과 merge되었다.
