@@ -14,11 +14,10 @@ author: OSS Team 6
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About Team: "aboutme"
+  Repository:
+    - Project: "https://github.com/20-2-SKKU-OSS/2020-2-OSS-6-Project"
+    - Static Page: "https://github.com/20-2-SKKU-OSS/2020-2-OSS-6"
 
 # --- Logo --- #
 
@@ -70,9 +69,9 @@ rss-description:
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
