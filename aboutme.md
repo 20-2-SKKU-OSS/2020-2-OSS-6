@@ -11,7 +11,7 @@ subtitle: 2020 SKKU OSS TEAM 6를 소개합니다.
 - 박병규(TEAM MEMBER)
 - 이찬구(TEAM MEMBER)
 - 임현서(TEAM MEMBER)
-- 이찬구(TEAM MEMBER)
+- 최호준(TEAM MEMBER)
 
 ### TEAM 6's WORK
 
