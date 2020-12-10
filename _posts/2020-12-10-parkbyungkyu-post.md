@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 제목 키워드 검색기능 추가 (by 박병규)
+title: 제목 키워드 검색기능 추가 
+subtitle: by 박병규
 date: 2020-12-10 16:00:00 +0900
 category: Process
 ---
@@ -26,6 +27,7 @@ def get_keyword(self):
         return keyword
 ```
 get_keyword() 함수를 만들어 사용자가 제목 키워드 검색 기능을 사용할 것인지 묻고, 사용한다면 키워드를 입력 받아 return 할 수 있도록 코드 작성
+- - -
 
 ## 2. 키워드가 포함된 기사만 엑셀 파일에 쓰는 코드
 
@@ -43,19 +45,22 @@ get_keyword() 함수를 만들어 사용자가 제목 키워드 검색 기능을
             wcsv.writerow([news_date, category_name, text_company, text_headline, text_sentence, content_url])
 ```
 **Merge 방법**: addkeyword 브랜치에서 이전 과정들을 업데이트하고, 위의 기능을 추가 -> 다시 noMultiproc 브랜치에 merge
+- - -
 
 ## 3. 코드 작동 테스트
 
 ![capture](../assets/img/캡처.JPG)
 이 사진과 같이 2020년 3월 1일 정치 카테고리의 2번째 기사 제목에 ‘국회의원’이라는 단어가 포함   
+- - -
 
 ![screen](../assets/img/codetest.JPG)
 실행할 때 오른쪽 사진처럼 카테고리를 정치, 시작기간을 2020년 3월, 키워드를 정치로 입력하고 크롤링을 진행하면 1페이지의 2번째 기사가 크롤링이 되었음을 확인 가능  
+- - -
 
 ![excel](../assets/img/excelresult.JPG)
 크롤링이 모두 완료된 후 엑셀 파일을 실행하면 다음과 같이 제목에 ‘국회의원’이 들어간 기사들만 쓰여짐
 
 ## 4. 프로젝트 read.me 수정
 
-readme 업데이트 과정에서 원본 크롤링 깃허브 홈페이지, 6조의 정적페이지의 외부링크를 달았고, 업데이트한 기능들 정리
+readme 업데이트 과정에서 원본 크롤링 깃허브 홈페이지, 6조의 정적페이지의 외부링크, 업데이트한 기능들 정리
 ![readmescreen](../assets/img/readmechange.JPG)
