@@ -10,7 +10,7 @@ category: Process
 
 기존 크롤링 프로그램은 보시다시피 실행하기 전 코드에서 카테고리와 날짜를 미리 설정해야 한다. 
 매번 바꾸는 과정이 번거롭다 생각하여, 프로그램을 실행시킬 때 마다 카테고리와 날짜를 입력받아 출력할 수 있도록 바꾸기로 하였다.
-![issue7](../assets/img/issue#7.png)
+![issue#7](../assets/img/issue#7.png)
 
 articlecrawler.py에 코드 첨가 
 ```python
